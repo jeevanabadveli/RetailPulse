@@ -1,0 +1,1001 @@
+Customer_ID,Age,Gender,Location,Subscription_Status,Previous_Purchases,Review_Rating,Churn,Cluster
+1,56,Male,New York,Yes,20,2.5,1,3
+2,69,Male,California,Yes,53,2.1,1,0
+3,46,Male,Illinois,Yes,20,4.3,1,1
+4,32,Female,Illinois,Yes,7,3.8,0,1
+5,60,Male,Texas,No,48,4.1,0,0
+6,25,Male,California,No,15,4.5,0,1
+7,38,Male,Texas,No,58,4.4,0,0
+8,56,Female,California,Yes,54,4.9,0,0
+9,36,Female,Texas,No,30,3.6,0,2
+10,40,Male,Illinois,Yes,41,3.5,0,2
+11,28,Male,Illinois,Yes,9,3.2,0,1
+12,28,Male,New York,Yes,31,2.5,0,2
+13,41,Male,Texas,Yes,58,3.7,0,0
+14,53,Female,Florida,No,33,2.8,0,3
+15,57,Female,New York,No,8,4.8,0,1
+16,41,Female,Texas,No,16,3.7,0,1
+17,20,Female,Texas,Yes,10,3.8,0,1
+18,39,Male,New York,Yes,31,3.1,0,2
+19,19,Male,Illinois,Yes,9,2.2,0,2
+20,41,Male,Texas,Yes,21,2.1,0,3
+21,61,Female,Illinois,Yes,56,3.3,0,0
+22,47,Male,New York,Yes,16,2.3,0,3
+23,55,Female,Illinois,Yes,3,3.8,0,1
+24,19,Female,California,Yes,47,4.6,0,2
+25,38,Male,Florida,No,51,4.6,0,0
+26,50,Male,Texas,No,46,4.0,0,0
+27,29,Male,Florida,No,24,2.6,0,2
+28,39,Female,Illinois,No,58,4.6,0,0
+29,61,Male,Texas,Yes,20,4.7,0,1
+30,42,Female,Illinois,No,36,2.6,0,2
+31,66,Male,California,No,37,4.2,0,0
+32,44,Female,New York,Yes,48,2.9,0,2
+33,59,Female,Texas,Yes,0,4.4,0,1
+34,45,Male,California,No,24,5.0,0,1
+35,33,Female,California,Yes,50,2.1,0,2
+36,32,Female,Texas,Yes,35,4.7,0,1
+37,64,Male,Illinois,Yes,16,3.9,0,3
+38,68,Female,California,Yes,40,4.9,0,0
+39,61,Male,Florida,Yes,23,3.4,0,3
+40,69,Female,California,Yes,1,4.5,0,1
+41,20,Male,Illinois,Yes,39,2.2,1,2
+42,54,Male,Illinois,Yes,14,3.0,0,3
+43,68,Female,Florida,No,31,2.2,0,3
+44,24,Female,California,Yes,38,4.9,0,1
+45,38,Female,Illinois,Yes,58,4.5,0,0
+46,26,Female,Texas,Yes,5,4.6,0,1
+47,56,Female,New York,No,0,4.8,0,1
+48,35,Male,New York,Yes,46,2.3,0,2
+49,21,Female,New York,Yes,22,3.2,1,2
+50,42,Male,California,No,57,2.2,0,2
+51,31,Male,Florida,No,38,2.6,0,2
+52,67,Female,Illinois,Yes,56,2.7,1,0
+53,26,Male,Texas,No,16,3.4,0,1
+54,43,Male,Texas,Yes,33,2.8,1,2
+55,19,Male,California,Yes,58,2.3,0,2
+56,37,Male,New York,Yes,40,2.5,1,2
+57,45,Female,California,Yes,28,2.4,0,3
+58,64,Male,Florida,No,8,4.9,0,1
+59,24,Female,Florida,Yes,12,4.3,1,1
+60,61,Female,Illinois,Yes,5,4.9,0,1
+61,25,Male,Illinois,No,5,3.3,0,1
+62,64,Female,Florida,No,19,2.8,0,3
+63,52,Female,Florida,Yes,51,4.4,0,0
+64,31,Female,Florida,No,52,3.0,0,2
+65,34,Male,California,Yes,2,2.9,0,3
+66,53,Female,Florida,No,16,2.7,0,3
+67,67,Female,Texas,No,48,2.4,0,0
+68,57,Female,New York,No,11,2.8,0,3
+69,21,Male,Florida,Yes,47,3.1,0,2
+70,19,Female,New York,Yes,46,4.0,0,2
+71,23,Male,California,Yes,44,2.2,0,2
+72,59,Male,New York,Yes,54,2.6,0,0
+73,21,Male,California,Yes,0,4.4,0,1
+74,46,Male,Texas,No,16,2.4,0,3
+75,35,Male,California,Yes,2,3.0,0,3
+76,43,Male,California,Yes,25,4.6,0,1
+77,61,Female,Illinois,No,14,2.5,1,3
+78,51,Male,Florida,Yes,35,2.2,0,3
+79,27,Female,Florida,No,31,3.5,0,2
+80,53,Female,Texas,Yes,31,2.9,0,3
+81,31,Male,Texas,Yes,3,3.7,0,1
+82,48,Female,Florida,Yes,17,4.4,1,1
+83,65,Female,Illinois,Yes,48,2.4,0,0
+84,32,Female,Florida,No,18,3.7,0,1
+85,25,Female,Illinois,Yes,42,3.5,1,2
+86,31,Male,Texas,Yes,51,2.4,0,2
+87,40,Female,New York,Yes,34,3.9,0,0
+88,57,Male,Texas,Yes,39,2.8,0,3
+89,38,Female,Texas,No,13,3.5,0,1
+90,33,Female,California,Yes,57,2.2,1,2
+91,62,Male,California,No,32,3.4,1,0
+92,35,Female,California,No,13,2.9,0,3
+93,64,Female,California,Yes,33,4.5,0,0
+94,41,Female,Illinois,No,54,2.2,1,2
+95,43,Male,Florida,Yes,3,3.3,0,3
+96,42,Female,New York,Yes,23,3.4,0,1
+97,62,Male,Texas,Yes,58,4.2,1,0
+98,58,Female,Illinois,No,28,3.7,0,0
+99,46,Male,New York,No,18,4.0,0,1
+100,32,Male,Illinois,Yes,5,4.3,0,1
+101,62,Female,Illinois,No,56,4.6,1,0
+102,18,Female,Texas,Yes,32,2.9,0,2
+103,42,Male,Florida,Yes,48,3.6,0,0
+104,24,Male,California,Yes,39,4.5,0,1
+105,26,Female,Florida,No,18,5.0,0,1
+106,41,Male,Texas,No,52,4.7,0,0
+107,18,Female,Texas,Yes,0,3.1,0,1
+108,61,Female,Texas,Yes,4,2.6,0,3
+109,25,Female,New York,Yes,26,3.5,0,2
+110,41,Female,Florida,Yes,15,4.2,1,1
+111,28,Male,Florida,Yes,5,3.5,0,1
+112,68,Female,Illinois,No,39,3.4,1,0
+113,34,Male,Illinois,Yes,12,4.5,0,1
+114,25,Female,Illinois,Yes,47,3.1,0,2
+115,52,Male,Texas,Yes,34,4.6,0,0
+116,52,Female,Florida,No,18,3.2,0,3
+117,50,Male,Texas,No,11,3.0,1,3
+118,22,Male,New York,Yes,15,3.4,0,2
+119,59,Female,Illinois,No,58,4.3,0,0
+120,56,Female,Texas,Yes,42,2.4,0,3
+121,58,Female,Texas,Yes,9,2.6,0,3
+122,45,Female,New York,Yes,24,4.9,0,1
+123,24,Male,California,Yes,19,2.5,0,2
+124,26,Female,Florida,Yes,30,3.7,0,2
+125,25,Male,California,No,3,3.7,0,1
+126,29,Male,Illinois,No,43,3.5,0,2
+127,51,Female,Texas,No,22,3.9,0,1
+128,50,Male,New York,Yes,1,2.7,0,3
+129,65,Male,New York,Yes,55,3.7,0,0
+130,40,Male,Florida,No,21,3.1,0,3
+131,41,Male,California,Yes,50,4.0,0,0
+132,54,Female,Florida,Yes,56,2.4,0,0
+133,52,Female,Texas,Yes,36,3.7,0,0
+134,61,Female,Florida,No,7,2.6,1,3
+135,57,Female,New York,Yes,6,2.8,0,3
+136,39,Male,New York,Yes,13,2.7,0,3
+137,44,Male,Illinois,No,55,2.5,1,2
+138,52,Female,Illinois,Yes,54,4.5,1,0
+139,18,Female,Texas,Yes,2,2.9,0,2
+140,52,Female,California,Yes,49,4.8,1,0
+141,54,Male,Florida,Yes,15,4.9,0,1
+142,64,Female,Texas,No,54,3.7,0,0
+143,31,Female,Illinois,Yes,18,2.4,0,2
+144,20,Female,Florida,Yes,50,3.1,0,2
+145,18,Male,Illinois,No,17,4.4,0,1
+146,22,Male,Florida,No,51,3.1,0,2
+147,43,Male,California,No,15,2.3,0,3
+148,31,Male,Texas,Yes,7,3.7,1,1
+149,56,Male,Florida,Yes,59,4.5,1,0
+150,44,Male,New York,No,32,4.4,0,1
+151,26,Male,New York,No,48,2.5,1,2
+152,32,Male,Florida,Yes,11,4.0,1,1
+153,32,Female,Florida,Yes,52,2.7,0,2
+154,43,Female,Florida,Yes,10,2.7,0,3
+155,59,Male,New York,No,4,4.6,0,1
+156,30,Male,New York,Yes,26,2.7,1,2
+157,68,Female,Florida,Yes,11,2.8,0,3
+158,49,Male,Illinois,Yes,16,2.0,0,3
+159,56,Male,Illinois,No,5,4.6,0,1
+160,66,Male,California,No,32,4.4,0,0
+161,69,Female,Texas,Yes,4,3.9,0,3
+162,49,Female,Illinois,No,56,4.3,0,0
+163,21,Female,New York,No,27,2.5,0,2
+164,47,Female,Illinois,Yes,13,3.4,1,3
+165,54,Female,California,Yes,4,3.1,1,3
+166,40,Male,California,Yes,53,2.3,0,2
+167,56,Female,Texas,No,55,3.5,1,0
+168,62,Male,Illinois,Yes,58,4.8,0,0
+169,32,Male,New York,No,32,2.1,0,2
+170,60,Female,New York,No,49,2.9,0,0
+171,46,Female,Florida,Yes,47,2.6,1,2
+172,53,Male,New York,No,40,2.7,1,3
+173,30,Male,Texas,Yes,18,4.7,0,1
+174,49,Male,Texas,Yes,21,3.4,1,3
+175,24,Female,New York,No,4,3.4,0,1
+176,68,Female,New York,No,58,4.3,0,0
+177,39,Female,Florida,Yes,1,2.5,0,3
+178,45,Female,New York,No,29,3.5,0,0
+179,19,Female,Florida,No,46,3.3,0,2
+180,59,Male,Florida,Yes,38,3.8,1,0
+181,62,Female,New York,No,3,5.0,0,1
+182,23,Male,California,Yes,32,4.3,0,1
+183,45,Male,California,Yes,12,3.2,0,3
+184,45,Male,Florida,Yes,19,4.5,0,1
+185,61,Female,New York,No,53,2.5,1,0
+186,61,Female,California,No,6,2.1,0,3
+187,37,Female,New York,Yes,14,2.6,0,3
+188,47,Male,New York,Yes,22,3.0,1,3
+189,28,Male,New York,No,13,3.5,0,1
+190,45,Male,Illinois,Yes,22,3.8,0,1
+191,42,Male,New York,No,18,4.7,0,1
+192,56,Male,Illinois,No,53,3.5,0,0
+193,50,Male,Florida,Yes,28,3.5,0,3
+194,18,Female,California,No,55,2.2,0,2
+195,44,Female,California,Yes,19,2.1,1,3
+196,69,Female,California,No,28,3.7,1,0
+197,30,Female,California,No,23,3.3,0,2
+198,58,Male,California,No,17,4.5,0,1
+199,20,Male,California,Yes,9,2.5,1,2
+200,56,Female,California,No,40,2.1,0,3
+201,23,Male,Florida,Yes,56,3.3,0,2
+202,25,Female,New York,Yes,7,2.7,0,2
+203,44,Female,Texas,Yes,25,2.1,1,3
+204,26,Female,Illinois,Yes,28,4.2,0,1
+205,54,Male,Texas,Yes,9,2.3,0,3
+206,50,Female,Texas,No,16,3.8,0,1
+207,68,Female,New York,No,1,2.8,1,3
+208,59,Female,New York,Yes,5,2.5,0,3
+209,61,Male,New York,No,57,3.1,1,0
+210,41,Male,California,Yes,4,4.4,0,1
+211,32,Female,Florida,No,27,3.2,0,2
+212,49,Male,California,No,40,4.3,0,0
+213,49,Male,Florida,Yes,4,2.4,0,3
+214,41,Male,Florida,No,17,4.3,1,1
+215,58,Male,Texas,Yes,25,2.7,0,3
+216,69,Male,Texas,Yes,19,4.0,0,3
+217,66,Male,Florida,No,40,3.7,0,0
+218,66,Male,Florida,Yes,48,4.8,0,0
+219,69,Male,California,Yes,26,3.2,0,3
+220,29,Male,California,Yes,48,2.2,0,2
+221,56,Male,Texas,No,11,2.1,1,3
+222,19,Female,New York,Yes,6,4.5,0,1
+223,20,Female,Florida,Yes,58,3.6,0,2
+224,66,Male,California,No,2,4.3,0,1
+225,54,Female,Texas,No,9,2.7,0,3
+226,66,Female,California,Yes,33,3.0,0,3
+227,34,Male,Florida,Yes,24,2.1,1,2
+228,66,Male,Florida,Yes,34,4.9,0,0
+229,19,Male,Illinois,Yes,15,4.0,0,1
+230,19,Female,New York,Yes,1,4.8,0,1
+231,45,Female,Illinois,No,59,2.8,1,0
+232,40,Male,Texas,No,23,3.8,0,1
+233,54,Male,California,No,9,4.0,0,1
+234,49,Male,Texas,Yes,37,3.0,0,0
+235,50,Female,Florida,No,21,4.5,0,1
+236,18,Female,Illinois,Yes,25,4.8,0,1
+237,36,Female,Illinois,No,42,4.7,0,0
+238,19,Female,Illinois,No,54,4.2,0,2
+239,61,Male,Texas,Yes,38,2.8,0,3
+240,43,Male,Florida,No,26,2.8,1,3
+241,49,Male,California,Yes,28,4.9,0,1
+242,23,Male,California,No,46,2.0,0,2
+243,49,Female,Texas,Yes,37,4.1,0,0
+244,21,Female,Illinois,Yes,19,4.1,0,1
+245,28,Male,New York,No,26,3.9,0,1
+246,34,Male,Texas,Yes,40,5.0,0,1
+247,55,Female,Texas,No,53,2.9,0,0
+248,41,Male,Florida,Yes,19,3.0,0,3
+249,22,Female,California,No,43,2.2,1,2
+250,69,Male,Texas,No,18,3.3,0,3
+251,51,Male,Texas,Yes,19,2.8,1,3
+252,23,Male,Illinois,Yes,34,3.0,0,2
+253,39,Male,Illinois,Yes,46,4.5,0,0
+254,28,Male,New York,Yes,1,4.8,0,1
+255,65,Male,Florida,Yes,29,2.6,0,3
+256,33,Male,New York,No,52,3.1,0,2
+257,50,Female,Illinois,No,33,4.8,0,0
+258,26,Female,California,No,21,2.2,1,2
+259,23,Female,Illinois,No,2,2.3,1,2
+260,33,Female,Florida,No,5,2.5,0,3
+261,46,Female,Illinois,No,14,3.8,0,1
+262,20,Male,Florida,Yes,26,2.5,0,2
+263,37,Male,Florida,No,9,4.9,0,1
+264,53,Female,Florida,No,8,3.3,0,3
+265,36,Male,Florida,Yes,32,3.5,1,2
+266,43,Female,Florida,Yes,31,2.7,0,2
+267,20,Female,California,Yes,47,3.4,0,2
+268,36,Male,New York,Yes,5,4.0,0,1
+269,37,Male,Texas,No,40,4.3,0,0
+270,49,Male,New York,Yes,58,4.3,0,0
+271,24,Female,Florida,Yes,35,3.7,0,2
+272,69,Male,California,No,58,4.7,0,0
+273,58,Female,Illinois,Yes,59,4.5,0,0
+274,50,Female,California,Yes,1,4.3,0,1
+275,57,Female,Florida,Yes,28,2.2,1,3
+276,56,Male,California,No,3,2.0,0,3
+277,35,Male,California,No,0,2.6,0,3
+278,57,Female,Florida,Yes,18,4.0,0,1
+279,18,Male,California,No,25,3.2,0,2
+280,28,Male,Texas,Yes,24,3.2,0,2
+281,45,Male,Texas,No,9,4.7,1,1
+282,42,Female,California,No,52,4.7,0,0
+283,67,Female,Illinois,No,14,4.7,0,1
+284,40,Male,Florida,Yes,58,2.9,0,2
+285,48,Female,Texas,No,21,4.1,0,1
+286,47,Male,Illinois,No,50,2.8,1,0
+287,59,Male,California,Yes,47,2.6,1,0
+288,52,Male,Illinois,No,20,2.6,0,3
+289,24,Male,New York,Yes,58,3.0,0,2
+290,33,Female,Texas,No,55,3.3,0,2
+291,43,Female,California,Yes,21,4.5,1,1
+292,65,Female,Florida,No,35,2.4,0,3
+293,69,Male,California,Yes,33,4.2,1,0
+294,66,Male,Florida,Yes,29,3.6,0,0
+295,19,Male,California,Yes,24,2.9,0,2
+296,18,Female,Illinois,Yes,44,3.5,0,2
+297,65,Male,Illinois,Yes,27,2.9,1,3
+298,29,Female,Illinois,Yes,0,3.8,1,1
+299,22,Female,New York,Yes,48,3.3,0,2
+300,54,Female,Florida,Yes,44,2.5,0,3
+301,49,Female,Illinois,Yes,3,2.3,0,3
+302,26,Female,New York,No,6,3.6,0,1
+303,58,Female,Florida,Yes,48,4.7,0,0
+304,52,Male,California,No,8,3.0,0,3
+305,36,Male,New York,No,35,4.2,1,1
+306,65,Female,Texas,No,18,4.0,0,3
+307,33,Female,New York,Yes,0,4.8,1,1
+308,20,Male,New York,No,9,4.5,0,1
+309,37,Female,Florida,Yes,35,3.7,0,2
+310,41,Female,California,Yes,8,4.0,0,1
+311,50,Male,Texas,Yes,44,4.7,0,0
+312,41,Female,Illinois,No,45,3.2,0,2
+313,69,Female,Illinois,Yes,41,3.0,0,0
+314,28,Female,New York,Yes,31,2.0,0,2
+315,66,Male,Florida,No,31,4.5,0,0
+316,25,Male,Florida,No,5,4.4,0,1
+317,53,Male,Illinois,Yes,47,2.3,0,2
+318,55,Female,Texas,Yes,37,3.7,1,0
+319,57,Female,California,No,16,3.4,1,3
+320,37,Male,Texas,Yes,9,2.4,0,3
+321,52,Female,California,Yes,49,4.9,0,0
+322,65,Female,Illinois,Yes,26,2.6,0,3
+323,42,Female,California,No,53,2.2,1,2
+324,52,Female,Florida,No,49,3.8,0,0
+325,42,Female,New York,No,34,4.2,0,1
+326,46,Male,New York,No,51,2.1,0,2
+327,35,Female,Illinois,Yes,58,4.0,0,0
+328,63,Male,Florida,Yes,20,3.6,0,3
+329,35,Female,Texas,Yes,24,2.3,0,2
+330,19,Male,Florida,Yes,27,2.5,0,2
+331,52,Female,New York,Yes,46,3.7,0,0
+332,33,Male,New York,No,14,2.9,0,2
+333,58,Female,Florida,No,3,4.8,0,1
+334,53,Male,Florida,No,28,4.5,1,1
+335,50,Female,New York,Yes,58,5.0,0,0
+336,21,Male,Texas,No,8,2.8,1,2
+337,50,Female,Illinois,No,26,4.9,0,1
+338,31,Male,Illinois,Yes,25,3.3,0,2
+339,38,Male,Florida,No,18,3.0,1,3
+340,65,Female,Illinois,Yes,55,2.2,0,0
+341,37,Female,New York,Yes,27,2.2,1,2
+342,25,Male,New York,Yes,16,4.1,0,1
+343,24,Female,Florida,Yes,42,3.4,1,2
+344,20,Male,Florida,Yes,56,2.7,0,2
+345,34,Male,Florida,No,40,3.8,0,2
+346,50,Male,Texas,No,41,2.8,0,0
+347,65,Female,Illinois,No,49,3.7,1,0
+348,29,Male,Florida,No,19,3.1,1,2
+349,68,Male,California,Yes,44,4.5,1,0
+350,39,Female,California,No,39,4.5,1,0
+351,39,Female,New York,Yes,38,3.4,0,2
+352,63,Female,Illinois,Yes,48,3.1,0,0
+353,47,Female,Florida,Yes,52,3.1,0,0
+354,55,Male,California,Yes,22,4.4,0,1
+355,55,Male,Illinois,Yes,46,3.0,0,0
+356,62,Male,New York,Yes,31,2.6,0,3
+357,68,Male,Texas,Yes,51,2.3,0,0
+358,25,Female,Illinois,No,46,3.4,0,2
+359,44,Male,Illinois,Yes,32,3.4,0,0
+360,44,Male,Texas,Yes,56,4.5,0,0
+361,51,Female,Illinois,Yes,45,2.7,0,0
+362,38,Male,New York,No,4,3.1,0,3
+363,47,Male,New York,Yes,42,4.4,0,0
+364,50,Male,Texas,Yes,47,4.5,0,0
+365,45,Male,Florida,Yes,33,3.2,0,2
+366,64,Male,California,Yes,39,3.4,0,0
+367,50,Male,Florida,Yes,10,2.9,0,3
+368,22,Female,Illinois,Yes,49,4.8,0,1
+369,65,Female,California,Yes,2,2.4,0,3
+370,36,Male,Texas,Yes,57,4.8,0,0
+371,21,Male,Texas,Yes,32,4.1,0,2
+372,52,Female,California,No,10,3.6,1,3
+373,66,Male,New York,Yes,15,2.1,1,3
+374,34,Male,California,Yes,17,3.4,0,1
+375,61,Male,Illinois,Yes,29,3.2,0,3
+376,45,Female,New York,No,47,2.5,0,2
+377,47,Male,Texas,Yes,54,4.0,0,0
+378,46,Female,California,Yes,9,4.9,1,1
+379,63,Male,Florida,No,17,3.7,0,3
+380,23,Female,Florida,Yes,37,4.1,0,2
+381,52,Female,Illinois,Yes,18,2.2,0,3
+382,58,Male,Florida,Yes,35,3.3,1,0
+383,54,Female,California,No,58,2.3,0,0
+384,41,Male,California,Yes,12,3.8,0,1
+385,46,Female,Florida,No,55,4.8,0,0
+386,66,Male,California,No,45,4.0,0,0
+387,63,Male,Illinois,Yes,2,2.2,0,3
+388,48,Female,New York,Yes,9,3.1,0,3
+389,52,Male,Illinois,Yes,37,3.7,1,0
+390,50,Male,Illinois,Yes,0,3.2,1,3
+391,69,Female,California,Yes,54,4.5,1,0
+392,38,Male,New York,No,55,4.4,0,0
+393,49,Male,California,No,26,3.8,1,1
+394,40,Female,Texas,No,45,3.1,0,2
+395,50,Female,California,Yes,7,2.8,0,3
+396,20,Male,California,No,50,2.3,0,2
+397,35,Male,California,No,45,3.1,0,2
+398,42,Female,New York,No,41,3.2,0,2
+399,59,Female,California,Yes,16,4.0,0,1
+400,48,Male,New York,No,8,4.0,0,1
+401,20,Female,Florida,Yes,5,2.2,1,2
+402,57,Male,Texas,Yes,42,3.2,0,0
+403,63,Male,New York,Yes,24,2.5,0,3
+404,41,Male,Florida,No,38,2.5,0,2
+405,67,Male,New York,No,48,4.5,0,0
+406,49,Male,New York,Yes,59,2.1,0,2
+407,64,Female,Texas,Yes,27,3.3,0,3
+408,39,Female,Illinois,Yes,32,2.5,0,2
+409,40,Female,Illinois,Yes,53,4.6,0,0
+410,19,Female,New York,Yes,36,3.7,0,2
+411,44,Male,California,Yes,8,2.7,1,3
+412,59,Male,Florida,No,17,3.5,0,3
+413,19,Male,California,Yes,55,4.2,0,2
+414,43,Male,California,Yes,58,4.9,1,0
+415,34,Female,New York,Yes,20,2.7,0,2
+416,57,Male,New York,No,1,4.7,0,1
+417,50,Male,New York,No,57,4.8,1,0
+418,26,Female,New York,No,42,4.7,0,1
+419,60,Female,Illinois,Yes,58,3.9,0,0
+420,65,Female,New York,Yes,59,3.9,0,0
+421,56,Female,Illinois,Yes,37,3.2,0,0
+422,46,Male,Illinois,No,57,4.3,0,0
+423,59,Male,New York,No,39,3.6,0,0
+424,43,Female,Texas,No,35,4.0,0,0
+425,52,Male,Florida,No,49,3.3,0,0
+426,67,Male,California,No,59,4.2,0,0
+427,42,Male,Illinois,Yes,42,4.5,0,0
+428,41,Female,Florida,No,36,2.4,0,2
+429,30,Male,Texas,Yes,14,4.5,0,1
+430,24,Female,California,Yes,27,3.6,0,2
+431,53,Male,California,Yes,17,4.5,1,1
+432,62,Male,Illinois,Yes,33,3.3,0,0
+433,37,Male,New York,Yes,21,3.1,0,2
+434,18,Female,Texas,Yes,10,4.7,0,1
+435,25,Male,Illinois,Yes,57,2.8,0,2
+436,63,Female,Texas,Yes,56,4.5,1,0
+437,33,Female,New York,Yes,12,3.5,0,1
+438,31,Female,New York,Yes,3,3.5,1,1
+439,29,Male,Illinois,Yes,21,2.9,0,2
+440,68,Male,New York,Yes,6,3.7,0,3
+441,40,Male,Florida,No,42,3.0,0,2
+442,32,Male,California,No,53,2.1,1,2
+443,45,Female,Illinois,No,23,2.8,0,3
+444,51,Female,Texas,No,3,2.0,0,3
+445,19,Female,Florida,Yes,27,4.9,0,1
+446,49,Male,Illinois,No,14,4.9,0,1
+447,40,Female,New York,Yes,0,3.2,1,3
+448,39,Male,New York,Yes,54,4.2,0,0
+449,68,Female,New York,No,2,3.0,0,3
+450,42,Male,New York,Yes,13,4.0,0,1
+451,39,Male,Texas,No,37,4.4,0,1
+452,39,Female,Florida,No,49,4.8,1,0
+453,66,Female,California,No,56,3.2,0,0
+454,69,Female,Texas,No,0,4.3,0,1
+455,59,Female,Texas,Yes,37,2.8,1,3
+456,23,Male,California,Yes,37,5.0,0,1
+457,32,Female,California,Yes,20,2.1,0,2
+458,60,Female,New York,Yes,47,3.8,0,0
+459,54,Female,Texas,No,28,4.0,0,0
+460,50,Male,Illinois,No,4,4.1,0,1
+461,25,Male,California,No,48,2.4,1,2
+462,61,Female,California,Yes,9,4.8,0,1
+463,61,Male,Florida,Yes,27,2.5,0,3
+464,22,Female,Illinois,Yes,20,3.9,1,1
+465,56,Male,Illinois,Yes,49,2.7,0,0
+466,21,Male,California,No,6,2.9,0,2
+467,23,Male,New York,Yes,2,3.6,0,1
+468,62,Male,Florida,Yes,44,3.3,1,0
+469,49,Female,Illinois,Yes,46,2.5,0,2
+470,69,Female,California,No,19,2.5,0,3
+471,47,Female,Illinois,No,18,3.3,1,3
+472,64,Male,Florida,Yes,34,4.3,0,0
+473,52,Female,Florida,Yes,3,4.7,0,1
+474,57,Female,Texas,Yes,4,2.3,1,3
+475,69,Female,California,Yes,0,3.2,0,3
+476,33,Male,Florida,No,3,2.3,0,3
+477,30,Male,Texas,No,11,2.0,1,2
+478,67,Male,Texas,Yes,59,4.0,0,0
+479,59,Female,Illinois,Yes,26,3.8,0,0
+480,47,Female,Illinois,No,55,2.5,1,2
+481,36,Female,Texas,Yes,41,2.7,1,2
+482,34,Male,Illinois,No,22,2.1,0,2
+483,36,Male,Florida,Yes,24,4.5,0,1
+484,45,Female,New York,Yes,20,4.9,0,1
+485,43,Male,Florida,Yes,57,2.4,0,2
+486,54,Male,Texas,Yes,51,2.7,0,0
+487,43,Male,Texas,No,23,4.6,0,1
+488,40,Male,Florida,Yes,24,4.8,0,1
+489,26,Female,Illinois,Yes,44,3.3,0,2
+490,29,Male,Illinois,Yes,54,2.2,0,2
+491,18,Male,Texas,Yes,45,2.1,0,2
+492,18,Male,California,Yes,31,3.7,0,2
+493,64,Male,Illinois,Yes,54,3.2,0,0
+494,51,Female,Florida,No,31,2.1,0,3
+495,49,Female,Illinois,Yes,4,3.7,0,1
+496,65,Male,Florida,Yes,35,2.0,0,3
+497,42,Male,Texas,No,45,4.4,0,0
+498,57,Male,Illinois,Yes,41,2.9,1,0
+499,62,Male,Florida,No,48,2.1,0,3
+500,18,Male,Texas,Yes,41,3.8,1,2
+501,33,Male,California,No,57,3.2,0,2
+502,56,Female,Florida,No,38,4.9,0,0
+503,22,Male,California,No,15,3.6,1,1
+504,39,Female,California,No,32,2.8,0,2
+505,46,Female,New York,Yes,48,4.1,0,0
+506,20,Male,Illinois,No,20,2.8,0,2
+507,29,Female,Florida,Yes,8,4.7,0,1
+508,43,Female,California,Yes,5,3.1,0,3
+509,33,Female,New York,Yes,50,3.6,0,2
+510,68,Female,Texas,Yes,44,2.2,0,3
+511,54,Female,Florida,Yes,34,3.3,0,0
+512,39,Female,California,Yes,38,4.5,1,0
+513,46,Male,Illinois,Yes,21,4.4,0,1
+514,31,Female,New York,No,40,2.7,0,2
+515,45,Female,California,No,53,2.7,1,2
+516,22,Female,Illinois,Yes,4,4.5,0,1
+517,64,Male,California,Yes,41,4.8,0,0
+518,66,Female,Florida,Yes,22,2.3,0,3
+519,47,Male,Florida,Yes,16,3.4,0,3
+520,63,Female,Florida,Yes,11,3.0,0,3
+521,69,Male,New York,Yes,22,4.6,0,0
+522,22,Male,Florida,Yes,15,2.3,1,2
+523,29,Female,Illinois,No,2,2.6,0,3
+524,33,Female,California,Yes,29,4.3,0,1
+525,43,Male,Texas,Yes,56,2.2,0,2
+526,43,Female,Illinois,Yes,21,3.5,0,1
+527,65,Male,Illinois,Yes,8,3.3,1,3
+528,38,Male,Florida,Yes,28,3.0,0,2
+529,56,Male,New York,No,46,3.2,0,0
+530,53,Male,California,Yes,36,3.6,1,0
+531,50,Male,New York,Yes,22,2.5,0,3
+532,47,Female,California,No,12,3.7,0,1
+533,54,Male,California,No,31,4.4,0,0
+534,40,Male,New York,No,45,4.3,1,0
+535,27,Female,Illinois,Yes,51,2.5,0,2
+536,22,Male,California,No,46,2.4,1,2
+537,53,Female,New York,Yes,47,2.8,0,0
+538,51,Female,California,Yes,22,3.1,0,3
+539,69,Female,Texas,Yes,44,3.2,1,0
+540,48,Male,Illinois,Yes,16,4.0,0,1
+541,27,Male,Florida,Yes,54,2.2,0,2
+542,36,Male,California,Yes,39,2.1,0,2
+543,49,Female,Texas,No,20,3.2,0,3
+544,18,Male,Florida,No,1,4.1,0,1
+545,22,Female,Florida,No,36,2.6,0,2
+546,62,Male,California,Yes,5,3.9,0,3
+547,21,Female,New York,No,43,2.8,0,2
+548,33,Male,California,Yes,17,4.7,0,1
+549,41,Male,Texas,No,29,4.7,0,1
+550,33,Male,Florida,Yes,21,2.9,0,2
+551,19,Female,California,No,53,2.7,1,2
+552,66,Female,New York,Yes,32,3.2,0,3
+553,45,Male,California,No,29,2.7,0,3
+554,49,Male,Illinois,No,16,4.0,1,1
+555,44,Female,New York,Yes,42,4.5,0,0
+556,37,Female,Texas,Yes,31,4.0,1,1
+557,41,Female,Florida,No,41,4.5,0,0
+558,29,Male,California,Yes,50,3.2,0,2
+559,67,Female,New York,No,13,2.5,0,3
+560,52,Male,Illinois,Yes,57,4.2,0,0
+561,50,Female,New York,Yes,9,3.1,0,3
+562,50,Male,Illinois,Yes,46,4.0,0,0
+563,68,Female,Texas,Yes,59,2.8,0,0
+564,60,Female,Florida,No,50,2.2,0,0
+565,54,Female,Texas,Yes,35,5.0,0,0
+566,29,Female,California,Yes,33,2.5,0,2
+567,20,Female,New York,Yes,8,5.0,0,1
+568,18,Male,Illinois,Yes,41,4.9,0,1
+569,50,Female,Illinois,No,27,4.4,1,1
+570,57,Female,New York,No,10,4.0,0,1
+571,27,Female,New York,Yes,13,3.7,1,1
+572,60,Male,California,No,38,4.6,0,0
+573,61,Female,Texas,No,54,2.9,0,0
+574,46,Male,Illinois,Yes,46,3.4,0,0
+575,30,Female,California,No,53,3.9,0,2
+576,29,Female,Texas,Yes,18,3.2,0,2
+577,48,Male,California,Yes,53,3.3,0,0
+578,63,Female,Illinois,No,14,3.0,0,3
+579,19,Male,New York,Yes,27,3.7,0,2
+580,68,Male,New York,No,23,4.6,0,0
+581,67,Female,Texas,No,7,2.6,0,3
+582,52,Male,Florida,Yes,42,4.8,0,0
+583,40,Female,Texas,No,8,4.1,1,1
+584,34,Female,Florida,Yes,46,4.5,0,0
+585,43,Male,California,Yes,32,3.7,0,0
+586,25,Male,California,No,32,4.3,0,1
+587,46,Male,Illinois,No,18,2.0,0,3
+588,43,Male,Florida,Yes,2,4.5,0,1
+589,27,Female,Illinois,Yes,9,2.1,0,2
+590,43,Female,New York,No,39,4.7,0,0
+591,51,Male,Florida,No,46,5.0,0,0
+592,68,Female,Texas,No,41,2.9,1,0
+593,58,Female,New York,Yes,0,2.6,1,3
+594,24,Female,New York,Yes,28,4.3,0,1
+595,21,Female,Texas,Yes,49,2.8,0,2
+596,67,Male,New York,No,33,4.6,0,0
+597,62,Male,Florida,Yes,50,2.3,0,0
+598,28,Female,Illinois,Yes,12,2.4,0,2
+599,46,Male,New York,No,53,4.9,0,0
+600,53,Male,Florida,Yes,0,4.0,1,1
+601,42,Male,California,No,33,4.5,0,1
+602,38,Female,Florida,No,28,3.0,0,2
+603,53,Female,Illinois,No,47,4.0,0,0
+604,27,Female,Florida,Yes,46,3.8,0,2
+605,54,Male,Texas,Yes,12,3.8,0,1
+606,26,Female,Illinois,No,47,4.0,1,2
+607,41,Female,California,No,48,3.7,0,0
+608,52,Male,Texas,No,52,3.3,0,0
+609,66,Female,Florida,Yes,28,2.8,0,3
+610,52,Female,Illinois,No,38,4.3,0,0
+611,65,Male,California,No,23,2.7,0,3
+612,53,Male,Texas,No,25,4.1,0,1
+613,35,Male,California,No,16,2.7,0,2
+614,66,Female,Florida,No,6,3.9,1,3
+615,56,Female,California,No,12,4.2,0,1
+616,49,Female,New York,Yes,4,2.7,0,3
+617,41,Male,Texas,Yes,25,2.2,0,3
+618,40,Male,California,Yes,48,2.4,0,2
+619,49,Female,Florida,Yes,2,3.8,0,1
+620,54,Female,Florida,Yes,6,4.5,0,1
+621,29,Male,California,Yes,57,2.1,0,2
+622,66,Male,Florida,Yes,48,4.2,0,0
+623,30,Male,Illinois,Yes,38,3.0,0,2
+624,40,Male,Illinois,No,52,3.4,1,0
+625,42,Female,Illinois,No,0,4.8,0,1
+626,52,Male,New York,Yes,48,3.0,0,0
+627,58,Female,California,No,16,3.4,0,3
+628,47,Female,New York,Yes,42,2.0,1,2
+629,34,Female,Florida,Yes,24,2.2,0,2
+630,66,Male,New York,Yes,58,2.8,0,0
+631,37,Male,Florida,Yes,2,2.1,0,3
+632,65,Male,Florida,No,14,3.9,0,3
+633,42,Male,Texas,No,28,3.3,0,2
+634,39,Female,Illinois,Yes,52,3.6,0,0
+635,30,Male,Florida,Yes,42,2.5,0,2
+636,36,Male,Texas,Yes,31,2.9,0,2
+637,66,Female,Illinois,Yes,25,4.0,0,0
+638,53,Male,Florida,Yes,59,4.9,0,0
+639,29,Female,Florida,Yes,15,2.2,0,2
+640,58,Female,New York,No,24,4.7,0,1
+641,36,Female,New York,No,53,3.7,1,0
+642,29,Female,Illinois,Yes,27,3.7,1,2
+643,26,Female,Florida,No,8,3.5,1,1
+644,24,Female,California,Yes,55,2.2,0,2
+645,45,Female,New York,Yes,55,2.3,0,2
+646,31,Female,Illinois,Yes,0,3.8,0,1
+647,48,Male,Florida,No,28,3.0,0,3
+648,69,Male,Florida,No,56,4.8,0,0
+649,36,Male,California,No,21,3.2,0,2
+650,64,Male,Illinois,Yes,15,2.4,0,3
+651,33,Female,Florida,No,40,4.1,0,2
+652,22,Male,New York,Yes,50,2.9,0,2
+653,52,Female,California,No,43,3.6,1,0
+654,29,Male,Illinois,Yes,50,4.1,0,2
+655,42,Male,California,Yes,53,4.7,0,0
+656,69,Male,New York,Yes,40,4.4,1,0
+657,38,Female,Illinois,No,6,4.0,0,1
+658,53,Male,California,Yes,13,4.0,0,1
+659,40,Female,Texas,No,28,4.8,0,1
+660,33,Female,New York,Yes,18,2.9,0,2
+661,56,Male,New York,No,18,2.0,1,3
+662,62,Male,New York,No,1,2.8,0,3
+663,59,Male,Texas,No,40,2.7,0,3
+664,56,Female,Texas,Yes,44,4.0,0,0
+665,31,Male,Florida,Yes,14,3.9,0,1
+666,48,Female,California,Yes,2,3.8,1,1
+667,22,Female,Florida,No,10,2.0,0,2
+668,52,Male,California,Yes,52,4.2,0,0
+669,40,Male,Texas,Yes,45,3.0,0,2
+670,46,Female,Texas,Yes,29,4.0,0,1
+671,60,Female,Florida,Yes,56,3.7,1,0
+672,28,Female,Illinois,No,39,3.0,0,2
+673,35,Male,Florida,Yes,17,2.4,0,2
+674,64,Female,California,No,50,2.3,0,0
+675,29,Male,Florida,Yes,47,4.5,0,0
+676,26,Female,New York,Yes,1,4.8,0,1
+677,27,Female,California,Yes,31,3.9,1,2
+678,61,Male,California,Yes,7,2.3,0,3
+679,34,Female,Illinois,Yes,21,3.2,1,2
+680,55,Male,Texas,No,5,4.2,0,1
+681,24,Male,California,Yes,11,4.3,0,1
+682,63,Female,Texas,No,46,2.4,0,3
+683,30,Male,Florida,Yes,56,2.0,0,2
+684,57,Male,New York,Yes,39,4.1,1,0
+685,59,Female,Illinois,No,35,3.1,0,3
+686,26,Male,Texas,Yes,14,2.8,0,2
+687,67,Male,California,Yes,27,2.0,0,3
+688,44,Male,Texas,Yes,51,3.6,0,0
+689,19,Female,California,Yes,56,4.6,0,2
+690,22,Male,Texas,No,48,4.9,0,1
+691,46,Female,California,Yes,44,3.7,0,0
+692,54,Female,Florida,No,17,3.5,0,3
+693,55,Male,California,No,1,2.3,0,3
+694,36,Male,California,Yes,12,3.6,0,1
+695,25,Male,New York,No,44,3.1,0,2
+696,65,Female,California,Yes,53,3.8,0,0
+697,62,Male,New York,No,14,3.2,1,3
+698,18,Male,Illinois,Yes,19,2.7,0,2
+699,39,Male,New York,No,28,2.3,0,2
+700,69,Male,Florida,Yes,58,2.9,0,0
+701,34,Male,New York,Yes,41,2.3,0,2
+702,24,Female,Illinois,No,28,2.5,0,2
+703,42,Female,Florida,No,2,5.0,0,1
+704,62,Male,Texas,Yes,18,3.3,0,3
+705,21,Male,Texas,Yes,2,3.6,0,1
+706,53,Male,New York,No,53,4.6,0,0
+707,23,Male,New York,No,13,5.0,1,1
+708,48,Female,Illinois,No,39,3.7,1,0
+709,36,Male,Illinois,No,58,4.4,0,0
+710,61,Female,California,No,54,3.0,0,0
+711,56,Female,Illinois,No,3,2.9,1,3
+712,44,Male,California,Yes,58,3.2,0,0
+713,27,Female,Florida,Yes,59,4.0,1,2
+714,43,Female,New York,No,51,4.0,0,0
+715,36,Female,Florida,No,10,2.9,1,3
+716,56,Female,Illinois,Yes,57,2.4,0,0
+717,20,Male,Florida,Yes,30,3.9,1,2
+718,62,Male,Florida,No,42,2.4,0,3
+719,30,Female,Florida,Yes,31,3.7,0,2
+720,67,Male,Illinois,Yes,26,4.1,1,0
+721,45,Male,Florida,Yes,29,4.1,0,1
+722,37,Male,California,Yes,42,4.3,0,0
+723,45,Male,Illinois,Yes,1,4.6,0,1
+724,25,Male,Florida,Yes,48,3.5,0,2
+725,58,Female,Illinois,Yes,8,4.2,1,1
+726,56,Male,Texas,No,27,3.9,0,0
+727,18,Male,California,Yes,30,2.6,0,2
+728,20,Male,Florida,No,59,2.1,0,2
+729,30,Male,Texas,No,33,2.9,0,2
+730,45,Female,Texas,Yes,55,3.3,0,0
+731,66,Female,Illinois,No,14,3.9,0,3
+732,42,Female,Texas,Yes,47,4.5,0,0
+733,50,Female,California,No,24,2.6,1,3
+734,55,Male,California,Yes,35,2.4,0,3
+735,23,Female,New York,No,7,4.9,0,1
+736,61,Male,California,No,8,2.3,1,3
+737,62,Male,Texas,Yes,57,3.4,0,0
+738,49,Male,California,Yes,57,3.8,1,0
+739,62,Male,Illinois,No,36,3.6,0,0
+740,64,Male,New York,No,47,2.3,1,3
+741,38,Female,Texas,Yes,44,2.2,0,2
+742,33,Female,New York,No,38,2.3,1,2
+743,38,Female,Texas,Yes,31,3.8,0,1
+744,28,Female,Illinois,No,57,3.6,0,2
+745,54,Male,New York,Yes,51,2.7,0,0
+746,53,Female,Florida,No,16,3.9,0,1
+747,52,Male,Texas,Yes,34,4.5,0,0
+748,36,Female,Florida,Yes,36,2.1,0,2
+749,37,Male,New York,Yes,18,3.5,0,1
+750,35,Male,Florida,Yes,43,4.1,0,0
+751,64,Female,Florida,Yes,28,2.8,0,3
+752,58,Male,New York,Yes,58,2.9,0,0
+753,66,Male,Illinois,No,6,3.8,0,3
+754,31,Female,Florida,Yes,27,4.7,0,1
+755,32,Male,Florida,Yes,8,4.4,0,1
+756,48,Female,Illinois,Yes,27,3.7,0,1
+757,18,Female,Florida,Yes,5,4.2,0,1
+758,20,Female,Florida,Yes,28,3.1,0,2
+759,33,Male,Florida,Yes,57,3.9,1,0
+760,40,Male,California,Yes,16,3.4,0,1
+761,28,Male,Illinois,Yes,15,2.6,0,2
+762,29,Female,Florida,Yes,22,4.1,0,1
+763,27,Male,Illinois,Yes,30,3.7,0,2
+764,49,Female,Texas,Yes,2,3.1,0,3
+765,33,Female,Texas,Yes,20,4.7,0,1
+766,25,Male,Florida,No,25,2.1,0,2
+767,55,Female,Illinois,Yes,35,2.9,0,3
+768,29,Male,Illinois,No,41,2.2,0,2
+769,41,Male,Illinois,Yes,36,4.3,0,0
+770,45,Male,California,No,52,4.1,0,0
+771,25,Male,Texas,No,21,3.0,0,2
+772,45,Male,Illinois,Yes,41,4.0,1,0
+773,53,Female,Illinois,No,11,3.2,0,3
+774,43,Female,California,Yes,41,4.3,0,0
+775,25,Female,California,Yes,12,3.4,1,1
+776,67,Male,Illinois,No,10,3.2,0,3
+777,45,Male,New York,No,53,4.8,0,0
+778,45,Male,Illinois,Yes,15,2.8,0,3
+779,54,Female,Illinois,Yes,7,2.4,1,3
+780,58,Male,California,Yes,39,3.8,0,0
+781,53,Female,California,Yes,58,4.9,0,0
+782,44,Female,Illinois,No,56,3.1,0,0
+783,34,Male,Illinois,Yes,39,2.2,1,2
+784,26,Male,Illinois,Yes,44,3.0,0,2
+785,50,Female,California,Yes,58,3.5,0,0
+786,37,Male,Illinois,Yes,1,2.5,1,3
+787,30,Female,Illinois,Yes,29,4.0,0,1
+788,45,Male,Florida,No,29,5.0,0,1
+789,65,Male,New York,No,11,3.4,0,3
+790,46,Female,Texas,No,9,3.1,0,3
+791,30,Male,New York,Yes,43,3.2,1,2
+792,63,Female,Florida,No,10,2.3,0,3
+793,52,Male,Texas,No,14,4.6,1,1
+794,23,Female,Illinois,No,15,3.2,0,2
+795,35,Female,Florida,Yes,16,3.2,0,1
+796,68,Male,Illinois,Yes,25,4.0,1,0
+797,22,Female,California,Yes,1,3.3,0,1
+798,64,Male,Florida,Yes,49,3.9,0,0
+799,42,Male,California,Yes,11,2.2,0,3
+800,19,Male,Florida,Yes,50,4.4,1,2
+801,27,Female,Florida,Yes,25,4.8,0,1
+802,47,Female,California,No,22,3.9,0,1
+803,67,Male,Texas,Yes,17,4.9,0,1
+804,62,Male,New York,Yes,31,2.5,0,3
+805,22,Female,Illinois,No,48,3.4,0,2
+806,50,Male,Florida,No,37,3.8,0,0
+807,18,Male,Illinois,No,56,3.7,0,2
+808,35,Female,California,No,46,3.2,0,2
+809,49,Male,Illinois,Yes,2,3.0,0,3
+810,64,Female,California,No,37,2.4,1,3
+811,66,Male,Illinois,Yes,2,3.2,0,3
+812,28,Female,New York,Yes,29,2.5,1,2
+813,38,Male,New York,Yes,0,4.2,0,1
+814,43,Male,New York,Yes,29,2.6,0,2
+815,42,Female,New York,Yes,44,2.2,1,2
+816,39,Male,New York,No,31,3.7,0,1
+817,44,Female,New York,No,27,3.8,0,1
+818,66,Male,California,Yes,20,4.6,1,1
+819,30,Female,Florida,Yes,57,3.7,0,2
+820,50,Female,Illinois,No,45,3.0,0,0
+821,51,Female,New York,No,12,4.4,0,1
+822,58,Female,California,Yes,26,3.6,0,3
+823,52,Male,California,No,35,2.2,0,3
+824,18,Male,California,Yes,6,3.7,0,1
+825,38,Female,Florida,Yes,21,4.7,0,1
+826,65,Female,Illinois,No,9,3.2,0,3
+827,23,Female,Florida,Yes,38,2.9,0,2
+828,45,Male,Texas,Yes,52,2.4,0,2
+829,34,Male,California,No,14,2.5,0,2
+830,22,Male,Texas,No,14,3.3,0,2
+831,48,Male,New York,Yes,3,3.8,0,1
+832,22,Female,New York,Yes,31,2.2,0,2
+833,55,Female,Florida,Yes,22,4.8,0,1
+834,20,Female,Illinois,No,54,4.3,0,2
+835,40,Male,Texas,Yes,5,3.8,1,1
+836,54,Male,Illinois,Yes,23,4.5,0,1
+837,54,Male,Florida,No,19,2.2,0,3
+838,27,Female,New York,Yes,57,3.4,0,2
+839,27,Female,Illinois,Yes,36,3.9,0,2
+840,36,Male,Illinois,Yes,19,4.5,1,1
+841,34,Female,New York,No,11,4.4,1,1
+842,38,Male,Texas,Yes,32,2.8,0,2
+843,31,Male,New York,Yes,27,4.8,0,1
+844,26,Female,Illinois,No,7,2.4,1,2
+845,63,Male,Texas,Yes,0,4.6,1,1
+846,18,Female,Texas,Yes,36,4.9,0,1
+847,68,Male,New York,Yes,21,2.5,0,3
+848,62,Female,Illinois,Yes,5,4.2,0,1
+849,30,Female,Florida,Yes,20,2.1,1,2
+850,21,Female,Illinois,Yes,31,3.2,0,2
+851,18,Male,California,Yes,34,3.5,0,2
+852,66,Male,Florida,Yes,14,3.7,0,3
+853,57,Female,Texas,No,4,4.8,0,1
+854,49,Female,Florida,No,59,4.0,0,0
+855,51,Male,Texas,No,55,3.4,1,0
+856,45,Male,Texas,No,45,4.4,0,0
+857,48,Male,Florida,Yes,49,4.9,0,0
+858,25,Female,Texas,No,47,2.1,0,2
+859,56,Male,Texas,Yes,5,4.9,0,1
+860,43,Male,California,No,24,2.3,0,3
+861,51,Female,Illinois,No,55,4.4,0,0
+862,20,Male,Illinois,No,45,2.8,0,2
+863,67,Male,California,No,58,2.4,0,0
+864,29,Male,Florida,Yes,55,3.3,0,2
+865,18,Female,New York,Yes,39,3.9,0,2
+866,61,Female,New York,Yes,28,3.1,1,3
+867,22,Female,New York,Yes,6,2.2,1,2
+868,47,Female,California,Yes,39,3.8,0,0
+869,47,Female,California,No,12,4.7,0,1
+870,34,Female,Texas,No,37,3.1,1,2
+871,65,Female,New York,Yes,17,2.6,0,3
+872,64,Male,Florida,No,1,3.3,1,3
+873,40,Male,Florida,No,7,2.1,1,3
+874,32,Female,New York,No,10,4.5,0,1
+875,54,Male,New York,No,32,4.5,0,0
+876,38,Male,New York,Yes,53,3.8,1,0
+877,31,Female,California,No,37,3.1,0,2
+878,19,Male,California,No,47,4.4,0,2
+879,28,Male,California,Yes,26,3.7,0,2
+880,68,Male,Illinois,Yes,19,4.5,0,0
+881,56,Male,Florida,No,11,3.9,0,1
+882,55,Male,Florida,Yes,42,4.4,0,0
+883,51,Female,Texas,No,30,3.8,1,0
+884,55,Female,California,No,26,3.2,0,3
+885,67,Female,Illinois,Yes,31,4.9,0,0
+886,51,Male,Illinois,Yes,9,3.6,0,3
+887,35,Female,Florida,No,2,3.8,0,1
+888,47,Male,California,Yes,44,2.7,0,2
+889,32,Male,Texas,Yes,26,3.9,1,1
+890,44,Male,California,Yes,34,3.7,1,0
+891,68,Male,New York,Yes,30,2.6,0,3
+892,51,Female,California,No,14,2.2,0,3
+893,69,Female,New York,Yes,15,3.8,0,3
+894,55,Male,New York,No,12,4.3,0,1
+895,50,Female,Texas,Yes,48,3.6,0,0
+896,41,Male,Florida,Yes,34,2.7,0,2
+897,32,Female,California,No,51,4.0,1,0
+898,47,Female,New York,No,10,2.2,0,3
+899,59,Male,California,Yes,58,3.3,0,0
+900,68,Female,Florida,Yes,20,2.5,0,3
+901,34,Male,Florida,Yes,50,2.6,0,2
+902,22,Female,Illinois,Yes,53,2.6,0,2
+903,46,Male,Florida,No,10,3.2,0,3
+904,21,Male,Texas,Yes,29,2.2,0,2
+905,27,Female,New York,Yes,59,3.2,0,2
+906,34,Female,Illinois,Yes,47,3.5,0,2
+907,27,Male,Texas,No,52,3.4,0,2
+908,34,Female,California,No,34,3.1,0,2
+909,37,Female,New York,Yes,21,4.5,0,1
+910,41,Male,Florida,No,37,2.4,1,2
+911,22,Male,New York,Yes,30,3.5,0,2
+912,51,Female,California,Yes,13,2.2,0,3
+913,23,Male,Illinois,No,23,2.2,0,2
+914,19,Male,Illinois,No,49,3.7,0,2
+915,30,Male,Illinois,No,48,3.7,0,2
+916,60,Female,Florida,Yes,31,4.6,0,0
+917,60,Female,Texas,Yes,35,3.7,0,0
+918,65,Male,Texas,No,31,4.9,0,0
+919,28,Female,New York,Yes,54,2.1,1,2
+920,68,Male,Florida,Yes,14,2.3,0,3
+921,64,Female,Illinois,Yes,42,2.1,1,3
+922,40,Male,Illinois,No,57,2.6,0,2
+923,33,Male,California,Yes,34,3.6,0,2
+924,48,Female,California,Yes,2,3.9,1,1
+925,28,Male,Illinois,No,15,2.1,0,2
+926,33,Female,Illinois,Yes,4,4.8,0,1
+927,25,Female,Florida,Yes,20,4.5,0,1
+928,21,Male,Texas,Yes,9,2.9,0,2
+929,57,Male,California,Yes,18,2.2,0,3
+930,21,Female,Texas,Yes,24,2.5,0,2
+931,42,Male,Florida,Yes,3,2.4,1,3
+932,20,Male,Illinois,No,28,2.4,0,2
+933,49,Male,Texas,Yes,18,3.6,1,1
+934,20,Male,Illinois,No,42,2.7,1,2
+935,44,Male,Illinois,Yes,1,3.1,0,3
+936,46,Female,New York,Yes,9,5.0,0,1
+937,49,Female,Texas,Yes,42,4.1,1,0
+938,67,Male,Texas,Yes,24,4.8,1,0
+939,68,Male,Illinois,No,19,2.4,0,3
+940,36,Male,Florida,Yes,47,3.1,0,2
+941,38,Female,New York,Yes,18,3.7,0,1
+942,22,Male,Illinois,No,22,2.2,0,2
+943,35,Female,California,No,23,2.0,0,2
+944,45,Female,California,No,10,4.0,0,1
+945,59,Female,New York,Yes,45,3.9,0,0
+946,39,Male,Florida,No,33,3.2,0,2
+947,38,Female,Illinois,Yes,54,3.5,0,0
+948,23,Male,Texas,Yes,27,3.2,0,2
+949,18,Female,New York,Yes,4,2.1,0,2
+950,22,Male,Florida,Yes,58,3.0,0,2
+951,58,Female,Texas,Yes,4,2.5,0,3
+952,29,Male,California,Yes,50,2.3,0,2
+953,43,Female,California,No,20,4.9,0,1
+954,63,Male,Texas,Yes,11,3.8,1,3
+955,51,Male,New York,Yes,49,4.2,0,0
+956,66,Male,California,Yes,3,2.9,0,3
+957,31,Male,Illinois,No,53,3.2,0,2
+958,43,Female,Texas,Yes,48,2.7,1,2
+959,62,Female,Texas,Yes,41,2.3,0,3
+960,44,Male,California,No,19,2.5,0,3
+961,26,Female,New York,No,37,4.4,0,1
+962,43,Male,Illinois,Yes,24,4.0,0,1
+963,64,Male,New York,No,13,3.6,0,3
+964,39,Female,Florida,No,10,3.4,0,1
+965,64,Male,Florida,No,31,4.8,0,0
+966,47,Male,California,Yes,10,2.2,0,3
+967,60,Female,California,No,17,2.8,0,3
+968,65,Male,California,Yes,26,3.0,0,3
+969,34,Male,Florida,Yes,54,4.3,1,0
+970,43,Male,New York,Yes,53,5.0,0,0
+971,53,Male,New York,Yes,17,2.7,1,3
+972,18,Female,California,Yes,55,4.6,0,2
+973,25,Female,Illinois,No,22,4.5,0,1
+974,66,Female,New York,Yes,10,2.7,0,3
+975,52,Male,Florida,Yes,20,3.2,1,3
+976,69,Male,Texas,Yes,43,3.2,0,0
+977,32,Female,Texas,Yes,4,4.9,0,1
+978,64,Male,Texas,No,22,2.5,0,3
+979,39,Male,Illinois,Yes,40,4.4,0,0
+980,31,Male,California,Yes,58,3.0,0,2
+981,43,Male,Florida,Yes,24,4.2,0,1
+982,45,Female,Illinois,Yes,40,3.3,0,0
+983,40,Female,Florida,Yes,53,3.7,0,0
+984,31,Female,Florida,No,9,4.5,0,1
+985,41,Male,California,No,21,4.4,0,1
+986,19,Female,Texas,Yes,18,4.6,0,1
+987,62,Female,California,No,0,2.2,0,3
+988,43,Male,Illinois,No,6,4.1,0,1
+989,31,Male,Illinois,No,3,2.4,0,3
+990,68,Female,Illinois,Yes,0,3.2,1,3
+991,24,Female,California,Yes,14,3.6,1,1
+992,20,Female,Florida,Yes,39,3.2,1,2
+993,64,Female,Florida,No,11,3.6,0,3
+994,40,Male,New York,No,21,5.0,0,1
+995,63,Female,Illinois,Yes,21,2.4,0,3
+996,60,Female,Florida,Yes,49,4.0,0,0
+997,64,Male,New York,No,46,3.2,0,0
+998,62,Female,Florida,No,16,2.4,0,3
+999,35,Male,Illinois,No,28,2.5,1,2
+1000,55,Male,Texas,No,45,4.8,1,0
