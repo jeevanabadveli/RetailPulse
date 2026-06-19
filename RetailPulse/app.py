@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import os
 
-# Page settings
 st.set_page_config(
     page_title="RetailPulse Dashboard",
     layout="wide"
@@ -11,76 +10,62 @@ st.set_page_config(
 st.title("📊 RetailPulse Dashboard")
 st.write("AI-Powered Customer Analytics & Demand Forecasting")
 
-# Debug Section
-st.sidebar.header("Debug Information")
-st.sidebar.write("Current Working Directory:")
-st.sidebar.code(os.getcwd())
+# Function to locate files
+def find_file(filename):
+    possible_paths = [
+        filename,
+        f"RetailPulse/{filename}",
+        f"./{filename}",
+        os.path.join(os.getcwd(), filename)
+    ]
 
-st.sidebar.write("Files in Current Directory:")
+    for path in possible_paths:
+        if os.path.exists(path):
+            return path
+
+    raise FileNotFoundError(f"{filename} not found")
+
 try:
-    st.sidebar.write(os.listdir("."))
-except Exception as e:
-    st.sidebar.error(str(e))
+    customers_file = find_file("customers.xls")
+    sales_file = find_file("sales_data.xls")
+    inventory_file = find_file("inventory.xls")
 
-# Show complete folder structure
-st.sidebar.write("Folder Structure:")
-for root, dirs, files in os.walk("."):
-    st.sidebar.write(f"📁 {root}")
-    for file in files:
-        st.sidebar.write(f"   📄 {file}")
-
-# Load data
-try:
-    customers = pd.read_csv("customers.xls")
-    sales = pd.read_csv("sales_data.xls")
-    inventory = pd.read_csv("inventory.xls")
+    customers = pd.read_csv(customers_file)
+    sales = pd.read_csv(sales_file)
+    inventory = pd.read_csv(inventory_file)
 
     st.success("Datasets loaded successfully!")
 
-    # Metrics
     st.header("📈 Project Summary")
 
     col1, col2, col3 = st.columns(3)
 
-    with col1:
-        st.metric("Total Customers", len(customers))
+    col1.metric("Total Customers", len(customers))
+    col2.metric("Total Sales Records", len(sales))
+    col3.metric("Total Products", len(inventory))
 
-    with col2:
-        st.metric("Total Sales Records", len(sales))
-
-    with col3:
-        st.metric("Total Products", len(inventory))
-
-    # Customer Data
     st.header("👥 Customer Dataset")
     st.dataframe(customers.head())
 
-    # Sales Data
     st.header("💰 Sales Dataset")
     st.dataframe(sales.head())
 
-    # Inventory Data
     st.header("📦 Inventory Dataset")
     st.dataframe(inventory.head())
 
-    # Dataset Shapes
     st.header("📋 Dataset Information")
-
     st.write("Customers Shape:", customers.shape)
     st.write("Sales Shape:", sales.shape)
     st.write("Inventory Shape:", inventory.shape)
 
 except Exception as e:
-    st.error(f"Error loading files: {e}")
+    st.error(f"Error: {e}")
 
     st.subheader("Current Directory")
     st.code(os.getcwd())
 
-    st.subheader("Files Found")
-    try:
-        st.write(os.listdir("."))
-    except Exception as err:
-        st.write(err)
-
-st.markdown("---")
-st.write("RetailPulse Dashboard")
+    st.subheader("Available Files")
+    for root, dirs, files in os.walk("."):
+        st.write(f"📁 {root}")
+        for file in files:
+            st.write(f"   📄 {file}")
